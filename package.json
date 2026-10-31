@@ -1,0 +1,17 @@
+{
+  "name": "zero-trust-system",
+  "version": "1.0.0",
+  "main": "gateway/index.js",
+  "scripts": {
+    "seed": "node seed.js",
+    "start:gateway": "node gateway/index.js",
+    "start:nilai": "node service-nilai/index.js",
+    "start:transkrip": "node service-transkrip/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "alasql": "^4.5.0"
+  }
+}
